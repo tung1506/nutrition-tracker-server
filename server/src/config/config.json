@@ -1,0 +1,24 @@
+{
+    "development": {
+        "username": "root",
+        "password": "123456",
+        "database": "nodejs",
+        "host": "localhost",
+        "port": 3308,
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "diet-app_test",
+        "host": "mysql",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": null,
+        "database": "diet-app_production",
+        "host": "mysql",
+        "dialect": "mysql"
+    }
+}
